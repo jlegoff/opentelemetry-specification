@@ -1,0 +1,17 @@
+groups:
+  id: agent
+  prefix: agent
+  type: resource
+  brief: >
+    A data collection agent, which may be managed by an OpAmp server.
+  attributes:
+    - id: type
+      type: string
+      brief: >
+        The type of the agent.
+      examples: ['io.opentelemetry.collector']
+    - id: distro
+      type: string
+      brief: >
+        The distribution of the agent.
+      examples: ['github.com/signalfx/splunk-otel-collector']
